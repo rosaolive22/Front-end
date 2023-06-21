@@ -1,2 +1,2 @@
 # Front-end
-Html, CSS e JavaScript com Angular
+Html, CSS e TypeScript com Angular
