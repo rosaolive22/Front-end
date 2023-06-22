@@ -1,0 +1,50 @@
+h1{
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #0db04b;
+}
+strong{
+	color: white;
+}
+
+.caixa{
+	background-color: #0db04b;
+	height: 280px; /*altura*/
+	justify-content: center;
+	align-items: stretch;
+	flex-direction: row;
+	display: flex;
+	margin-top: 40px;
+	gap: 20px;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+.label {
+	border-radius: 4px;
+	font-size: 16px;
+	width: 386px;
+	height: 65px;
+	padding: 10px;/*distancia superior*/
+	border-radius: 10px;
+	justify-content: center;
+	border: none;
+
+  margin-bottom: 20px;
+	margin-right: 20px;
+
+	/*cursor: pointer; /*altera o cursor para o ícone de ponteiro ao passar o mouse sobre os botões.*/
+}
+.button{
+	background-color:black;
+	color:white;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	flex: 1;
+	font-weight: bold;
+	width: 396px;
+	height: 85px;
+  margin-bottom: 20px;
+}

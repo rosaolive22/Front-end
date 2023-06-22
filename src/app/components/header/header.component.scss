@@ -1,0 +1,35 @@
+.cabecalho{
+	background-color: #0db04b;
+	padding: 20px ;
+	align-items: center; /*coloca tudo no centro*/
+	display: flex;	/*alinha todos emementos*/
+	justify-content:space-between;
+	height: 80px; /*altura*/
+	/*gap: 243px;*/
+}
+.cabecalho .logo{
+	text-align: left;
+	vertical-align: middle; /* Centraliza verticalmente */
+	margin: 120px;
+	/*gap: 120px 8;/*espaçamento entre os elementos*/
+}
+.cabecalho .links a{
+	display: inline-block;/*ajusta os elementos verticalmente*/
+	justify-content:space-between;/*espaça os elementos dentro do flex-box*/
+	margin-right: 20px; /* Espaçamento entre os elementos */
+	text-decoration: none;
+	color:#000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;/*fonte em negrito baixada da família a cima*/
+	font-size: 16px;
+}
+.cabecalho .whats{
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	margin: 120px;
+}
+.carosel img{
+	max-width: 100%;
+	height: auto;
+}

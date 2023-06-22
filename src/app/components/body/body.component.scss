@@ -1,0 +1,20 @@
+h1{
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #0db04b;
+}
+strong{
+	color: white;
+}
+
+.conteudo_informativo{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	margin-bottom: 20px;
+	flex-wrap: nowrap;/*itens aut, os itens vetical vão se posicionando horizontalmente*/
+	height: auto;
+	width: calc(100% - 20px);
+  margin: auto;
+}

@@ -1,0 +1,22 @@
+h1{
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #0db04b;
+}
+strong{
+	color: white;
+}
+
+.video_body4{
+  display: flex;
+  justify-content: center;
+
+}
+.video_iframe{
+  width: 996;
+  height: 450;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
